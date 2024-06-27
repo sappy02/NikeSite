@@ -1,0 +1,63 @@
+/* CSS: Is where we style and adjust the elements we created in HTML */
+
+
+
+.navbar{
+    border:solid blue;
+    /* height:12vh; */
+    margin:1em;
+    display:flex;
+    justify-content: space-between;
+}
+
+.mainPic{
+    border:solid green;
+    height:45vh;
+    margin:1em;
+}
+.adContainer{
+    border:solid purple;
+    height:42vh;
+    margin:1em;
+}
+.logo{
+    height:45px;
+    /* width:50%; */
+}
+
+.iconParent{
+    /* border:solid red; */
+    margin-top:5px;
+    width:50%;
+    display:flex;
+    justify-content: space-evenly;
+}
+.icon{
+    height:30px;
+}
+.bigPicture{
+    width:100%;
+}
+.picTitle{
+    text-align:center;
+    font-family:serif;
+}
+.btnContainer{
+    /* border:solid blue; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.shop, .login{
+    font-size:19px;
+    background-color:black;
+    color:white;
+    width:33%;
+    border-radius:20px;
+}
+.shop:hover, .login:hover{
+    font-size:19px;
+    background-color:black;
+    color:lime;
+    width:33%;
+    border-radius:20px;
+}
